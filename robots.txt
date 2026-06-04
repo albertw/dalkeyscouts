@@ -1,0 +1,6 @@
+# Robots.txt for www.dalkeyscouts.ie
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.dalkeyscouts.ie/sitemap.xml

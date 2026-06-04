@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Beaver Scouts at 17th Dalkey - Beavers are our youngest members (6-9yo) and meet for an hour on a Wednesday evening at 6pm in our den on Hyde Rd.">
+  <meta name="keywords" content="Beaver Scouts, Dalkey Beavers, scouts age 6-8">
+  <title>Beaver Scouts - 17th Dalkey Scouts</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!-- Fonts - Stripe-Level Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <div id="header-placeholder"></div>
+
+  <main role="main">
+    <!-- Page Header -->
+    <section class="section section--highlight">
+      <div class="container text-center">
+        <h1>Beaver Scouts</h1>
+        <p class="text-muted">Beavers are our youngest members (6-9yo) and meet for an hour on a Wednesday evening at 6pm in our den on Hyde Rd.</p>
+      </div>
+    </section>
+
+    <!-- About Beavers -->
+    <section class="section">
+      <div class="container">
+        <div class="beaver-layout">
+          <div class="beaver-content">
+            <h2>About Beaver Scouts</h2>
+            <p>Beaver Scouts typically meet once a week during school terms. At meetings they play team games and learn
+            Scouting skills like hiking, camping, knots, first aid, cooking and more. Beavers go on outdoor adventures – walks,
+            treasure hunts, one or two night camps, litter-picking, parading on Saint Patrick's Day, slumber parties in
+            hostels or Scout Dens and more.</p>
+
+            <p>Children of this age love the outdoors. National events for Beavers include JamÓige – a camp held every four
+            years for Beavers and Cubs. There are also events run at Scout County level and at Scout Province level.</p>
+
+            <p>Our Beaver Section meets from 1800 to 1900 every Wednesday.</p>
+          </div>
+          <div class="beaver-image">
+            <img src="images/beavers.jpg" alt="Beaver Scouts in tent">
+          </div>
+        </div>
+      </div>
+      <style>
+        .beaver-layout {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 40px;
+          align-items: center;
+        }
+        .beaver-image img {
+          width: 100%;
+          height: auto;
+          border-radius: var(--border-radius-lg);
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 768px) {
+          .beaver-layout {
+            grid-template-columns: 1fr;
+            gap: 24px;
+          }
+          .beaver-image {
+            order: -1;
+          }
+        }
+      </style>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- JavaScript -->
+  <script src="js/header-footer.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About 17th Dalkey Scouts - Learn about our history, values, and commitment to helping young people in Dalkey develop skills for life.">
+  <meta name="keywords" content="17th Dalkey, about scouts, scouting history, scout values, Dalkey scouts">
+  <title>About Us - 17th Dalkey Scouts</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!-- Fonts - Stripe-Level Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <div id="header-placeholder"></div>
+
+  <main role="main">
+    <!-- Page Header -->
+    <section class="section section--highlight">
+      <div class="container text-center">
+        <h1>About 17th Dalkey Scouts</h1>
+        <p class="text-muted">Building skills for life through adventure, friendship, and fun</p>
+      </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="section">
+      <div class="container">
+        <div class="story-layout">
+          <div class="story-content">
+            <h2>Our Story</h2>
+            <p>
+              The 17th Dalkey was founded in 1927 as part of the Catholic Boy Scouts of Ireland. For the first 50 years the Troop met in a variety of locations around Dalkey including Our Lady’s Hall, the Town Hall and Epworth Hall.
+            </p>
+            <p>
+              This changed in the 1970’s when Terry Connolly, the group leader at the time, led the challenge with a highly motivated group of the scouts’ parents and leaders to provide the group with a permanent home.
+            </p>
+            <p>
+              The den that was built from their efforts. It opened in 1976 to great ceremony which was the culmination of a parade by all sections of the scout troop, from the Epworth Hall, down Castle Street and up the football field for the official opening.
+            </p>
+            <p>
+              In the intervening years the den has been the base for numerous adventures in to the Wicklow and Dublin hills, which are basically the scout’s home playground and many other exploits across Ireland, England and Western Europe. The den has seen thousands of kids pass through it doors and seen them grow from young kids into adulthood many to return to join the band of leaders without whom the adventure would not continue.
+              95 years on we’re delighted to still be keeping the spirit of scouting alive!
+            </p>
+            <p class="text-muted">
+              <small>(Content for this piece was largely taken from an article by Alan Byrne in the Dalkey Community Newsletter in March 2014)</small>
+            </p>
+          </div>
+          <div class="story-image">
+            <img src="images/den-1024x498.jpg" alt="The 17th Dalkey Scout Den">
+          </div>
+        </div>
+      </div>
+      <style>
+        .story-layout {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 40px;
+          align-items: center;
+        }
+        .story-image img {
+          width: 100%;
+          height: auto;
+          border-radius: var(--border-radius-lg);
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 768px) {
+          .story-layout {
+            grid-template-columns: 1fr;
+            gap: 24px;
+          }
+          .story-image {
+            order: -1;
+          }
+        }
+      </style>
+    </section>
+
+    <!-- Mission and Scout Method -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="mission-method-layout">
+          <div class="mission-content">
+            <h2>Mission and Aim</h2>
+            <p>Scouting Ireland is dedicated to enabling and empowering young people to realise their potential, through its core values based on the Scout Promise and Law, fostering active citizenship and helping create a better community; society and world.</p>
+            <p>The Aim of Scouting Ireland is to encourage the social, physical, intellectual, character, emotional and spiritual development of young people so that they may achieve their full potential and, as responsible citizens, to improve society.</p>
+          </div>
+          <div class="method-content">
+            <h2>The Scout Method</h2>
+            <p>Scouting uses a unique method of educational delivery that has been proven effective for over 100 years. This method includes:</p>
+            <ul style="list-style-type: disc; padding-left: 20px; margin: var(--spacing-md) 0;">
+              <li style="margin-bottom: var(--spacing-sm);"><strong>Promise and Law:</strong> A commitment to live by Scouting's core values</li>
+              <li style="margin-bottom: var(--spacing-sm);"><strong>Learning by Doing:</strong> Practical, hands-on experiences that build real skills</li>
+              <li style="margin-bottom: var(--spacing-sm);"><strong>Team System:</strong> Working in small groups (patrols/sixes) to develop teamwork and leadership</li>
+              <li style="margin-bottom: var(--spacing-sm);"><strong>Symbolic Framework:</strong> Using themes and stories to make learning engaging and memorable</li>
+              <li style="margin-bottom: var(--spacing-sm);"><strong>Personal Progression:</strong> Setting and achieving personal goals at your own pace</li>
+              <li style="margin-bottom: var(--spacing-sm);"><strong>Nature:</strong> Learning about and caring for the natural world through outdoor experiences</li>
+              <li style="margin-bottom: var(--spacing-sm);"><strong>Adult Support:</strong> Caring volunteer leaders who guide and mentor youth members</li>
+              <li><strong>Community Involvement:</strong> Active participation in local community projects and events</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <style>
+        .mission-method-layout {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 60px;
+          align-items: start;
+        }
+        @media (max-width: 768px) {
+          .mission-method-layout {
+            grid-template-columns: 1fr;
+            gap: 40px;
+          }
+        }
+      </style>
+    </section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- JavaScript -->
+  <script src="js/header-footer.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
