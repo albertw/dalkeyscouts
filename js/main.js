@@ -7,84 +7,6 @@
   'use strict';
 
   // ===================================
-  // Mobile Menu Toggle
-  // ===================================
-  const initMobileMenu = function() {
-    const navToggle = document.querySelector('.nav__toggle');
-    const navList = document.querySelector('.nav__list');
-    const dropdownToggles = document.querySelectorAll('.nav__item--dropdown > .nav__link');
-
-    if (!navToggle || !navList) return;
-
-    // Toggle main menu
-    navToggle.addEventListener('click', function() {
-      navList.classList.toggle('nav__list--active');
-
-      // Update ARIA attributes
-      const isExpanded = navList.classList.contains('nav__list--active');
-      navToggle.setAttribute('aria-expanded', isExpanded);
-    });
-
-    // Handle dropdowns on mobile
-    dropdownToggles.forEach(function(toggle) {
-      toggle.addEventListener('click', function(e) {
-        if (window.innerWidth < 768) {
-          e.preventDefault();
-          const dropdown = this.nextElementSibling;
-          if (dropdown && dropdown.classList.contains('nav__dropdown')) {
-            dropdown.classList.toggle('nav__dropdown--active');
-          }
-        }
-      });
-    });
-
-    // Close menu when clicking outside
-    document.addEventListener('click', function(e) {
-      if (!e.target.closest('.nav')) {
-        navList.classList.remove('nav__list--active');
-        navToggle.setAttribute('aria-expanded', 'false');
-      }
-    });
-
-    // Close menu on window resize to desktop
-    window.addEventListener('resize', function() {
-      if (window.innerWidth >= 768) {
-        navList.classList.remove('nav__list--active');
-        document.querySelectorAll('.nav__dropdown--active').forEach(function(dropdown) {
-          dropdown.classList.remove('nav__dropdown--active');
-        });
-      }
-    });
-  };
-
-  // ===================================
-  // Smooth Scroll for Anchor Links
-  // ===================================
-  const initSmoothScroll = function() {
-    document.querySelectorAll('a[href^="#"]').forEach(function(link) {
-      link.addEventListener('click', function(e) {
-        const href = this.getAttribute('href');
-        if (href === '#' || href === '#top') return;
-
-        const target = document.querySelector(href);
-        if (target) {
-          e.preventDefault();
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-
-          // Close mobile menu if open
-          const navList = document.querySelector('.nav__list');
-          if (navList) {
-            navList.classList.remove('nav__list--active');
-          }
-        }
-      });
-    });
-  };
-
-  // ===================================
   // Initialize Facebook SDK
   // ===================================
   const initFacebook = function() {
@@ -163,16 +85,12 @@
     // Wait for DOM
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', function() {
-        initMobileMenu();
-        initSmoothScroll();
         initFacebook();
         initHeaderScroll();
         initLazyLoad();
       });
     } else {
       // DOM already loaded
-      initMobileMenu();
-      initSmoothScroll();
       initFacebook();
       initHeaderScroll();
       initLazyLoad();

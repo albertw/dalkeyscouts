@@ -334,6 +334,8 @@ ul, ol {
   border: none;
   cursor: pointer;
   padding: var(--spacing-xs);
+  position: relative;
+  z-index: 10000;
 }
 
 .nav__toggle span {
