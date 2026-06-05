@@ -28,6 +28,7 @@
                     <li><a href="beaver-scouts.html" class="nav__dropdown-item">Beaver Scouts (6-8)</a></li>
                     <li><a href="cub-scouts.html" class="nav__dropdown-item">Cub Scouts (9-11)</a></li>
                     <li><a href="scouts.html" class="nav__dropdown-item">Scouts (12-15)</a></li>
+                    <li><a href="venture-scouts.html" class="nav__dropdown-item">Venture Scouts (15-17)</a></li>
                   </ul>
                 </li>
                 <li class="nav__item nav__item--dropdown">
@@ -55,6 +56,7 @@
                   <li><a href="beaver-scouts.html" class="mobile-nav__link mobile-nav__sublink">Beaver Scouts (6-8)</a></li>
                   <li><a href="cub-scouts.html" class="mobile-nav__link mobile-nav__sublink">Cub Scouts (9-11)</a></li>
                   <li><a href="scouts.html" class="mobile-nav__link mobile-nav__sublink">Scouts (12-15)</a></li>
+                  <li><a href="venture-scouts.html" class="mobile-nav__link mobile-nav__sublink">Venture Scouts (15-17)</a></li>
                 </ul>
               </li>
               <li class="mobile-nav__item">
