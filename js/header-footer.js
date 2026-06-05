@@ -37,7 +37,7 @@
                     <li><a href="registering.html" class="nav__dropdown-item">Enquire about you child joining</a></li>
                     <li><a href="volunteering.html" class="nav__dropdown-item">Volunteering</a></li>
                     <li><a href="policies.html" class="nav__dropdown-item">Group Policies</a></li>
-                    <li><a href="images/17thBooklet2425c.pdf" class="nav__dropdown-item" target="_blank">Information Booklet (PDF)</a></li>
+                    <li><a href="images/17thBooklet2425c.pdf" class="nav__dropdown-item" target="_blank">Information Booklet (PDF) (2024)</a></li>
                   </ul>
                 </li>
                 <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
@@ -65,7 +65,7 @@
                   <li><a href="registering.html" class="mobile-nav__link mobile-nav__sublink">Enquire about you child joining</a></li>
                   <li><a href="volunteering.html" class="mobile-nav__link mobile-nav__sublink">Volunteering</a></li>
                   <li><a href="policies.html" class="mobile-nav__link mobile-nav__sublink">Group Policies</a></li>
-                  <li><a href="images/17thBooklet2425c.pdf" class="mobile-nav__link mobile-nav__sublink" target="_blank">Information Booklet (PDF)</a></li>
+                  <li><a href="images/17thBooklet2425c.pdf" class="mobile-nav__link mobile-nav__sublink" target="_blank">Information Booklet (PDF) (2024)</a></li>
                 </ul>
               </li>
               <li class="mobile-nav__item"><a href="contact.html" class="mobile-nav__link">Contact</a></li>
