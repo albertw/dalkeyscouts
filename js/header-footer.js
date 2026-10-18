@@ -104,6 +104,7 @@
                 <h3 class="footer__section-title">Connect With Us</h3>
                 <nav class="footer__links">
                   <a href="https://www.facebook.com/17thDalkey" target="_blank" rel="noopener noreferrer" class="footer__link">Facebook Page</a>
+                  <a href="https://www.instagram.com/17thdalkey/" target="_blank" rel="noopener noreferrer" class="footer__link">Instagram</a>
                   <a href="volunteering.html" class="footer__link">Become a Volunteer</a>
                 </nav>
               </div>
