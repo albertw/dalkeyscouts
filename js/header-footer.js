@@ -32,6 +32,12 @@
                   </ul>
                 </li>
                 <li class="nav__item nav__item--dropdown">
+                  <a href="#" class="nav__link" aria-haspopup="true">Adventure Skills ▾</a>
+                  <ul class="nav__dropdown">
+                    <li><a href="hillwalking.html" class="nav__dropdown-item">Hillwalking</a></li>
+                  </ul>
+                </li>
+                <li class="nav__item nav__item--dropdown">
                   <a href="#" class="nav__link" aria-haspopup="true">For Parents ▾</a>
                   <ul class="nav__dropdown">
                     <li><a href="registering.html" class="nav__dropdown-item">Enquire about you child joining</a></li>
@@ -57,6 +63,12 @@
                   <li><a href="cub-scouts.html" class="mobile-nav__link mobile-nav__sublink">Cub Scouts (9-11)</a></li>
                   <li><a href="scouts.html" class="mobile-nav__link mobile-nav__sublink">Scouts (12-15)</a></li>
                   <li><a href="venture-scouts.html" class="mobile-nav__link mobile-nav__sublink">Venture Scouts (15-17)</a></li>
+                </ul>
+              </li>
+              <li class="mobile-nav__item">
+                <button class="mobile-nav__link mobile-nav__dropdown-toggle">Adventure Skills ▼</button>
+                <ul class="mobile-nav__dropdown">
+                  <li><a href="hillwalking.html" class="mobile-nav__link mobile-nav__sublink">Hillwalking</a></li>
                 </ul>
               </li>
               <li class="mobile-nav__item">
